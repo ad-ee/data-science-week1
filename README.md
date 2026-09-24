@@ -47,18 +47,6 @@ Date range	Jan 1, 2021 – Dec 31, 2025
 
 Nothing important got deleted — sketchy-looking rows just get tagged in a dq_flags column so you know they exist but you still keep the full picture. I think that's the more honest way to clean data tbh, instead of quietly dropping rows and pretending they never existed.
 
-Quick peek at the cleaned data
-
-Here's a random sample of 6 rows just so you can see what the cleaned CSV actually looks like:
-
-order_id	order_date	customer_country	sales_channel	quantity	gross_sales	net_sales	profit	order_status
-ORD-769762	2021-01-02	USA	Social Media	3	$341.71	$312.99	$125.40	Completed
-ORD-496041	2021-01-01	Canada	Website	4	$1,657.90	$1,606.93	$724.50	Completed
-ORD-315929	2021-01-01	UK	Website	5	$856.28	$944.42	$426.50	Completed
-ORD-248637	2021-01-03	India	Social Media	8	$1,071.25	$1,115.31	$531.94	Completed
-ORD-710051	2021-01-03	USA	Social Media	8	$1,926.33	$1,769.97	$863.65	Completed
-ORD-717702	2021-01-02	USA	Website	1	$579.40	$533.77	$263.37	Pending
-
 Files:
 
 clean_ecommerce.py → the cleaning + validation script
