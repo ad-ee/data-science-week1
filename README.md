@@ -4,8 +4,7 @@ Week 1 Objectives
   
 By the end of Week 1, interns should be able to:
 # Load and inspect tabular datasets using Python tools.
-# Identify common data quality issues such as missing values, duplicates, invalid formats,
-  and inconsistent categories.
+# Identify common data quality issues such as missing values, duplicates, invalid formats.
 # Clean datasets systematically and document every major cleaning decision.
 # Compute basic KPIs and use them to evaluate business performance.
 # Analyze trends in sales and customer behavior.
